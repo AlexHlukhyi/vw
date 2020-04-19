@@ -17,6 +17,9 @@
     <script>var csrfToken = '{{ csrf_token() }}'; var urlRoute = {};</script>
 </head>
 <body>
+    <div class="container">
+        <p style="color: red">Конфігуратор у розробці! Вибачте за технічні незручності!</p>
+    </div>
     <header>
         <hr/>
         @yield("page-header")
